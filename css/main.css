@@ -15,6 +15,11 @@
     background-color: rgb(255, 255, 255);
     
 }
+
+.navbar ul{
+    margin-right: 100px;
+}
+
 .navbar ul li{
     display: inline-block;
     /* line-height: 30px; */
