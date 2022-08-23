@@ -18,7 +18,7 @@
 
     text-align: justify;
     line-height: 24px;
-    color: rgb(63, 63, 63);
+    color: rgba(63, 63, 63, 0.896);
 }
 
 .title-text {
@@ -47,6 +47,17 @@
     color: #030303;
     font-weight: 400;
     font-size: small;
+    transition: .5s;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #0D6EFD;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    border-radius: 3px;
+    
 }
 
 .header {
@@ -72,9 +83,7 @@
     transform: translate(50px, 0px);
 }
 
-.navbar ul li a:hover {
-    color: rgb(130, 145, 255);
-}
+
 
 .main-banner {
     background-color: rgba(214, 241, 255, 0.3);
@@ -124,12 +133,11 @@
     padding-left: 5px;
     transition: .5s;
 }
-
 #mb-btn-icon-first {
     height: 8px;
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
     #header-logo {
         height: auto;
         width: 100px;
@@ -151,7 +159,7 @@
         font-size: 35px;
     }
 
-}
+} */
 
 @media only screen and (max-width: 1200px) {
     .title-text {
