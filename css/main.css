@@ -21,9 +21,12 @@
 
 .title-text {
     font-weight: 600;
+    font-size: 40px;
+}
+#main-title{
+    font-weight: 600;
     font-size: 60px;
 }
-
 .below-title{
     font-size: 15px;
     color: white; 
@@ -240,11 +243,37 @@
     padding: 120px 0;
 }
 
-#about-info{
+#main-about-info{
     text-align: justify!important;
 }
 
-#about-img{
+#about-about-img{
     height: 400px;
     width: auto;
+}
+
+
+.about-about-info{
+    text-align: justify!important;
+    /* position: relative; 
+    top: 10%; */
+}
+.footer-area{
+    background-color: #000831;
+}
+.footer-area p{
+    color: white;
+}
+
+.footer-title{
+font-size: 20px;
+font-weight: 500;
+}
+
+form{
+    width: 500px;
+}
+.form-btn-class a{
+text-decoration: none;
+color: white;
 }
