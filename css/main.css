@@ -110,22 +110,6 @@
     transition: .5s;
 }
 
-.mb-btn-icon {
-    height: 12px;
-    width: auto;
-    display: inline-block;
-    margin-top: -1px;
-    transition: .5s;
-}
-
-.mb-btn-icon:hover {
-    padding-left: 5px;
-    transition: .5s;
-}
-#mb-btn-icon-first {
-    height: 8px;
-}
-
 #mb-pic {
     height: 500px;
     width: auto;
@@ -223,5 +207,20 @@
 .footer-title{
 font-size: 20px;
 font-weight: 500;
+}
+
+#table-education {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-education td, #table-education th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+#table-education tr:nth-child(even){
+    background-color: #000831;
+    color: white;
 }
 
