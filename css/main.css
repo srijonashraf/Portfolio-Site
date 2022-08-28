@@ -295,3 +295,25 @@ font-weight: 500;
     text-decoration: none;
     color: white;
 }
+
+.div-social{
+    height: 35px;
+    background-color: white;
+    width: auto;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+}
+
+.social-icon{
+    font-size: 20px;
+    padding: 7px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+.social-icon:hover{
+   cursor: pointer;
+   color: #1536dd;
+}
+.div-social a{
+    text-decoration: none;
+    color: #000831;
+}
