@@ -6,10 +6,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* .container{
-    max-width: 960px;
-    margin: 0 auto;
-} */
 .upper-text {
     text-transform: uppercase;
 }
@@ -42,15 +38,15 @@
 
 .navbar ul {
     margin-right: 100px;
+    margin-top: 0rem;
+    margin-bottom: 0rem !important;
 }
 
 .navbar ul li {
     display: inline-block;
-    margin-right: 20px;
-
 }
 
-.navbar ul li a {
+.navbar ul li a{
     text-decoration: none;
     color: #030303;
     font-weight: 400;
@@ -61,13 +57,9 @@
 .navbar ul li a:hover {
     color: rgb(255, 255, 255);
     background-color: #0D6EFD;
-    padding: 10px 10px;
-    margin: -10px -10px;
     box-sizing: border-box;
     transition: .3s;
-    border-radius: 3px;
-    
-    
+    border-radius: 3px; 
 }
 
 .header {
@@ -96,7 +88,7 @@
 
 }
 #main-about-info{
-    text-align: justify!important;
+    text-align: justify !important;
 }
 
 .mb-btn {
@@ -110,67 +102,15 @@
     transition: .5s;
 }
 
-#mb-pic {
+/* #mb-pic {
     height: 500px;
     width: auto;
     margin-left: 50px;
-}
+} */
+
 #copyright{
     font-size: 15px;
     margin-top: 30px;
-}
-
-@media only screen and (max-width: 1200px) {
-    .title-text {
-        font-size: 25px;
-    }
-
-    #mb-pic {
-        height: 400px;
-        width: auto;
-    }
-
-
-}
-
-@media only screen and (max-width: 991px) {
-
-    [class*="col-"] {
-        width: 100%;
-    }
-
-    #mb-pic {
-        display: none;
-    }
-
-    .title-text {
-        font-size: 20px;
-    }
-
-    .small-text {
-        font-size: 12px;
-    }
-
-    .navbar ul li {
-        display: none;
-    }
-
-    .mb-btn {
-        font-size: 12px !important;
-    }
-
-    #header-logo {
-        display: block;
-        margin: auto;
-    }
-
-    .mb-left-about p {
-        text-align: justify;
-        line-height: 20px;
-        padding-right: 15px;
-    }
-
-
 }
 
 
@@ -232,6 +172,17 @@ font-weight: 500;
     color: white;
 }
 
+@media only screen and (max-width: 992px) {
+    #mb-pic {
+      height: 350px;
+      width: auto;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    #mb-pic {
+      display: none;
+    }
+  }
 /* ------------------skills.html---------------- */
 .progress-bar{
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
