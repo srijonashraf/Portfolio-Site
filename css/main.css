@@ -6,6 +6,15 @@
     font-family: "Poppins", sans-serif;
 }
 
+.container{
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    margin-top: 100px;
+}
+
 .upper-text {
     text-transform: uppercase;
 }
@@ -80,13 +89,12 @@
     width: 100%;
 }
 
-.mb-left {
+/* .mb-left {
     margin: 0;
     padding: 0;
     position: absolute;
     top: 20%;
-
-}
+} */
 #main-about-info{
     text-align: justify !important;
 }
@@ -171,7 +179,7 @@ font-weight: 500;
     background-color: #0D6EFD;
     color: white;
 }
-
+/* 
 @media only screen and (max-width: 992px) {
     #mb-pic {
       height: 350px;
@@ -182,7 +190,7 @@ font-weight: 500;
     #mb-pic {
       display: none;
     }
-  }
+  } */
 /* ------------------skills.html---------------- */
 .progress-bar{
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
