@@ -253,3 +253,42 @@ font-weight: 500;
     color: #000831;
 }
 /* ------------------portfolio.html---------------- */
+.cards{
+    display: flex;
+    align-items: center;
+	justify-content:space-around;
+}
+
+.card{
+    height: 260px;
+    width: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    border-style: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.card-content{
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.card-content:hover{
+   transition: .3s;
+   transform: scale(1.01);
+}
+
+
+p{
+    margin-bottom: 0rem;
+}
+
+.card-description{
+    margin-top: 7px;
+}
+
+a{
+    text-decoration: none;
+}
