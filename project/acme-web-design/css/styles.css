@@ -107,7 +107,12 @@ form {
 	cursor: pointer;
 }
 
-.servies-group {
+.services{
+	margin: 20px 0px;
+
+}
+
+.services-group {
 	text-align: center;
 	gap: 50px;
 	padding: 20px 0px;
@@ -126,7 +131,7 @@ form {
 }
 
 footer {
-	padding: 20px;
+	padding: 30px 0px;
 	color: #ffffff;
 	background-color: #e8491d;
 	text-align: center;
