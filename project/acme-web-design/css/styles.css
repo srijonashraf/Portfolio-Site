@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 p,
 h1,
 h2,
@@ -93,11 +97,12 @@ form {
 	border-style: none;
 }
 
+
 .subscription-button {
 	font-family: Poppins;
 	height: 35px;
 	background-color: #007BFF;
-	border-radius: 3px;
+	border-radius: 2px;
 	border-style: none;
 	color: white;
 }
