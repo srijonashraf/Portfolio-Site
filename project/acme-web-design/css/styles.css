@@ -20,27 +20,37 @@ body {
 	font-family: Poppins;
 }
 
-/* .container {
+.container {
 	width: 90%;
 	margin: auto;
 	overflow: hidden;
-} */
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+	
+}
+
+.sb-flex{
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+	justify-content: space-between;
+}
 
 .navbar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	background-color: #35424a;
 	color: white;
 	border-bottom: 3px solid orangered;
-	padding: 20px 30px;
+	padding: 20px 0px;
 }
 
 .nav-links {
 	display: flex;
 }
 
-.nav-link {
+.nav-link:nth-child(n+2) {
 	padding-left: 20px;
 }
 
@@ -69,10 +79,7 @@ body {
 .newsletter {
 	background-color: rgb(53, 66, 74);
 	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px 30px;
+	padding: 20px 0px;
 }
 
 form {
@@ -100,11 +107,10 @@ form {
 	cursor: pointer;
 }
 
-.services {
-	display: flex;
+.servies-group {
 	text-align: center;
 	gap: 50px;
-	padding: 40px 50px;
+	padding: 20px 0px;
 }
 
 .services h3 {
@@ -136,7 +142,17 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-	.services {
+	/* .servies-group  {
+		flex-direction: column;
+	}
+	.newsletter-group{
+		flex-direction: column;
+	} */
+
+	.flex{
+		flex-direction: column;
+	}
+	.sb-flex{
 		flex-direction: column;
 	}
 }
